@@ -1,6 +1,6 @@
-## 2b IMPLEMENTATION OF SLIDING WINDOW PROTOCOL
-## NAME : DHARANISH MS
-## REGISTER NO : 212223240027
+# 2b IMPLEMENTATION OF SLIDING WINDOW PROTOCOL
+# NAME : DHARANISH MS
+# REGISTER NO : 212223240027
 
 ## AIM
 ## ALGORITHM:
@@ -11,7 +11,7 @@
 5. If your frames reach the server it will send ACK signal to client
 6. Stop the Program
 ## PROGRAM
-# Client :
+### Client :
 ```
 import socket
 s=socket.socket()
@@ -33,7 +33,7 @@ while True:
     i+=s
 ```
 
-# Server :
+### Server :
 ```
 import socket
 s=socket.socket()
@@ -44,11 +44,11 @@ while True:
 ```
 
 ## OUTPUT 
-# Client :
+### Client :
 ![client 2b](https://github.com/MSDharanish-23011819/2b_SLIDING_WINDOW_PROTOCOL/assets/147139454/03a2f3d3-2325-45f8-8cef-4633651397c9)
 
 
-# Server :
+### Server :
 ![server 2b](https://github.com/MSDharanish-23011819/2b_SLIDING_WINDOW_PROTOCOL/assets/147139454/6fc719f0-ee8e-4340-8b0a-bc0898bb977f)
 
 
